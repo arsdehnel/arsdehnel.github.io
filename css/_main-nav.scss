@@ -1,0 +1,22 @@
+.main-nav {
+	display: flex;
+	flex: 0 0 5rem;
+	background: mix( teal, black, 50% );
+	font-family: 'Poiret One', cursive;
+	font-size: 2rem;
+	.home-link {
+		flex: 1;
+	}
+	a {
+		flex: 0 0 3rem;
+		padding: 1rem;
+		color: white;
+		text-decoration: none;
+		span {
+			border-bottom: 1px solid white;
+			&:hover {
+				border-bottom: 1px solid teal;
+			}
+		}
+	}
+}

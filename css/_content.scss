@@ -1,0 +1,15 @@
+main {
+	flex: 1;
+	background: #eee;
+	font-family: 'Cormorant Infant', serif;
+	.page-title {
+		font-family: 'Poiret One', cursive;
+		font-weight: 700;
+		background: #ccc;
+		margin: 0;
+		padding: 1rem;
+	}
+	.content {
+		padding: 1rem;		
+	}
+}

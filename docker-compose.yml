@@ -1,0 +1,6 @@
+jekyll:
+  image: 302265824077.dkr.ecr.us-west-2.amazonaws.com/cpd-pages-builder:latest
+  ports:
+    - 4001:4001
+  volumes:
+    - $PWD:/src
